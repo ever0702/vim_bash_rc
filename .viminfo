@@ -38,42 +38,43 @@ $
 # Registers:
 "0	LINE	0
 	ZSH_THEME="philips"
-"1	LINE	0
-	# alias rm='rm -i'
+""1	LINE	0
+	!bin
 "2	LINE	0
-	Wed Jul 20 23:30:25 EDT 2016   Stufy for a while makes me good
+	!~/bin/*
 "3	LINE	0
-	alias python2=python
+	# alias rm='rm -i'
 "4	LINE	0
-	echo "Calendar"
+	Wed Jul 20 23:30:25 EDT 2016   Stufy for a while makes me good
 "5	LINE	0
-	alias lla=jls -la
+	alias python2=python
 "6	LINE	0
-	python=python3
+	echo "Calendar"
 "7	LINE	0
-	
+	alias lla=jls -la
 "8	LINE	0
-	
+	python=python3
 "9	LINE	0
 	
-""-	CHAR	0
+"-	CHAR	0
 	rm -v
 
 # File marks:
-'0  5  2  ~/.gitignore
-'1  19  14  ~/.bash_alias
-'2  1  0  ~/Workspace/shell_workspace/.bash_profile
-'3  17  41  ~/.bash_alias
-'4  1  0  ~/.bash_alias
-'5  6  18  ~/.bash_profile
-'6  1  0  ~/Dropbox/notes/studynotes.txt
-'7  9  18  ~/Workspace/python_workspace/pyfund/words.py
-'8  16  15  ~/.bash_alias
-'9  56  0  ~/.zshrc
+'0  4  0  ~/.gitignore
+'1  5  3  ~/.gitignore
+'2  19  14  ~/.bash_alias
+'3  1  0  ~/Workspace/shell_workspace/.bash_profile
+'4  17  41  ~/.bash_alias
+'5  1  0  ~/.bash_alias
+'6  6  18  ~/.bash_profile
+'7  1  0  ~/Dropbox/notes/studynotes.txt
+'8  9  18  ~/Workspace/python_workspace/pyfund/words.py
+'9  16  15  ~/.bash_alias
 
 # Jumplist (newest first):
--'  5  2  ~/.gitignore
+-'  4  0  ~/.gitignore
 -'  1  0  ~/.gitignore
+-'  5  3  ~/.gitignore
 -'  19  14  ~/.bash_alias
 -'  1  0  ~/.bash_alias
 -'  1  0  ~/Workspace/shell_workspace/.bash_profile
@@ -173,10 +174,9 @@ $
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	5	2
-	^	5	3
-	.	5	2
-	+	5	2
+	"	4	0
+	.	5	0
+	+	5	0
 
 > ~/.bash_alias
 	"	19	14
