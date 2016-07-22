@@ -60,18 +60,20 @@ $
 	rm -v
 
 # File marks:
-'0  19  14  ~/.bash_alias
-'1  1  0  ~/Workspace/shell_workspace/.bash_profile
-'2  17  41  ~/.bash_alias
-'3  1  0  ~/.bash_alias
-'4  6  18  ~/.bash_profile
-'5  1  0  ~/Dropbox/notes/studynotes.txt
-'6  9  18  ~/Workspace/python_workspace/pyfund/words.py
-'7  16  15  ~/.bash_alias
-'8  56  0  ~/.zshrc
-'9  59  49  ~/.zshrc
+'0  5  5  ~/.gitignore
+'1  19  14  ~/.bash_alias
+'2  1  0  ~/Workspace/shell_workspace/.bash_profile
+'3  17  41  ~/.bash_alias
+'4  1  0  ~/.bash_alias
+'5  6  18  ~/.bash_profile
+'6  1  0  ~/Dropbox/notes/studynotes.txt
+'7  9  18  ~/Workspace/python_workspace/pyfund/words.py
+'8  16  15  ~/.bash_alias
+'9  56  0  ~/.zshrc
 
 # Jumplist (newest first):
+-'  5  5  ~/.gitignore
+-'  1  0  ~/.gitignore
 -'  19  14  ~/.bash_alias
 -'  1  0  ~/.bash_alias
 -'  1  0  ~/Workspace/shell_workspace/.bash_profile
@@ -168,8 +170,15 @@ $
 -'  1  0  ~/Workspace/wget_pages/index.html
 -'  1  0  ~/Workspace/wget_pages/index.html
 -'  1  0  ~/Workspace/wget_pages/index.html
+-'  19  14  ~/.bash_alias
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	"	5	5
+	^	5	6
+	.	5	5
+	+	5	5
 
 > ~/.bash_alias
 	"	19	14

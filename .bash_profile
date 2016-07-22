@@ -28,3 +28,26 @@ function touch_open() {
 	fi
 }
 
+
+function are_you_sure() {
+	echo -n "Are you sure (Y/N)? "
+	result=
+
+	while [[ ! $result ]]; do
+		read -r -k -s key
+		if [[ $key = [Yy] ]]; then
+			result='Y'
+		elif [[ $key = [Nn] ]]; then
+			result='N'	
+		fi
+	done
+
+	echo $result
+}
+
+
+
+
+
+
+
