@@ -60,27 +60,30 @@ $
 	rm -v
 
 # File marks:
-'0  4  0  ~/.gitignore
-'1  5  3  ~/.gitignore
-'2  19  14  ~/.bash_alias
-'3  1  0  ~/Workspace/shell_workspace/.bash_profile
-'4  17  41  ~/.bash_alias
-'5  1  0  ~/.bash_alias
-'6  6  18  ~/.bash_profile
-'7  1  0  ~/Dropbox/notes/studynotes.txt
-'8  9  18  ~/Workspace/python_workspace/pyfund/words.py
-'9  16  15  ~/.bash_alias
+'0  20  28  ~/.bash_alias
+'1  4  59  ~/.bash_profile
+'2  2  5  ~/.gitignore
+'3  4  0  ~/.gitignore
+'4  5  3  ~/.gitignore
+'5  19  14  ~/.bash_alias
+'6  1  0  ~/Workspace/shell_workspace/.bash_profile
+'7  17  41  ~/.bash_alias
+'8  1  0  ~/.bash_alias
+'9  6  18  ~/.bash_profile
 
 # Jumplist (newest first):
--'  4  0  ~/.gitignore
+-'  20  28  ~/.bash_alias
+-'  1  0  ~/.bash_alias
+-'  4  59  ~/.bash_profile
+-'  1  0  ~/.bash_profile
+-'  2  5  ~/.gitignore
 -'  1  0  ~/.gitignore
+-'  4  0  ~/.gitignore
 -'  5  3  ~/.gitignore
 -'  19  14  ~/.bash_alias
--'  1  0  ~/.bash_alias
 -'  1  0  ~/Workspace/shell_workspace/.bash_profile
 -'  17  41  ~/.bash_alias
 -'  6  18  ~/.bash_profile
--'  1  0  ~/.bash_profile
 -'  1  0  ~/Dropbox/notes/studynotes.txt
 -'  9  18  ~/Workspace/python_workspace/pyfund/words.py
 -'  1  0  ~/Workspace/python_workspace/pyfund/words.py
@@ -167,21 +170,13 @@ $
 -'  1  0  ~/Workspace/wget_pages/index.html
 -'  1  0  ~/Documents/.bash_pro
 -'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
 
 # History of marks within files (newest to oldest):
 
-> ~/.gitignore
-	"	4	0
-	.	5	0
-	+	5	0
-
 > ~/.bash_alias
-	"	19	14
-	^	19	15
-	.	19	14
+	"	20	28
+	^	20	29
+	.	20	28
 	+	15	1
 	+	15	0
 	+	15	21
@@ -191,14 +186,12 @@ $
 	+	19	15
 	+	15	0
 	+	19	14
-
-> ~/Workspace/shell_workspace/.bash_profile
-	"	1	0
+	+	20	28
 
 > ~/.bash_profile
-	"	6	18
-	^	19	2
-	.	19	0
+	"	4	59
+	^	4	60
+	.	4	59
 	+	1	13
 	+	2	12
 	+	3	0
@@ -229,6 +222,16 @@ $
 	+	13	108
 	+	14	0
 	+	19	0
+	+	4	59
+
+> ~/.gitignore
+	"	2	5
+	^	2	6
+	.	5	0
+	+	5	0
+
+> ~/Workspace/shell_workspace/.bash_profile
+	"	1	0
 
 > ~/Dropbox/notes/studynotes.txt
 	"	1	0

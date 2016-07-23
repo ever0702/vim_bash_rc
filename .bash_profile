@@ -1,7 +1,7 @@
 # ALL alias config comes from .bash_alias
 source ~/.bash_alias
 
-export PATH="$PATH":/Users/yong/.node/bin:~/bin
+export PATH="$PATH":/Users/yong/.node/bin:~/bin:~/.app_links
 export EDITOR=subl
 eval $(thefuck --alias fuck)
 
@@ -45,7 +45,23 @@ function are_you_sure() {
 	echo $result
 }
 
+function startfan() {
+	cd ~/Workspace/ps_workspace/fantp
+	check_ps_running "Sublime Text" || subl .
+	NODE_ENV=dev npm start
+}
 
+function check_ps_running() {
+	[[ $1 ]] || { echo "Missing process name" >&2; exit 1; }
+	# ps aux | grep "$1" | grep -v "grep" | wc -l
+	[[ $( pgrep -f "$1" | wc -l ) -gt 0 ]]
+}
+
+function killname() {
+	x=$( pgrep $1 )
+	echo $x
+	[[ $x ]] && kill $x || echo "$1 not found" 
+}
 
 
 
