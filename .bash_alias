@@ -1,3 +1,7 @@
+# Project specific to Fantp
+alias cdfan='cd ~/Workspace/ps_workspace/fantp'
+
+
 alias c=clear
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -21,5 +25,4 @@ alias touch='touch_open'
 alias rm='trash'
 alias chrome='open -a Google\ Chrome'
 
-# Project specific to Fantp
-alias cdfan='cd ~/Workspace/ps_workspace/fantp'
+alias cl='cd -'

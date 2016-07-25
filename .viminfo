@@ -8,13 +8,17 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/plug
+~MSle0/plug
+
+# Last Substitute Search Pattern:
+~MSle0~&12
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
+:s/12/489/g
 :q
 :q!
 :w
@@ -24,6 +28,7 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
+? 12
 ?/plug
 ? \<echo\>
 ??echo "Hello \$USER"
@@ -39,65 +44,77 @@ $
 "0	LINE	0
 	ZSH_THEME="philips"
 ""1	LINE	0
-	!bin
+	# Project specific to Fantp
+	alias cdfan='cd ~/Workspace/ps_workspace/fantp'
 "2	LINE	0
-	!~/bin/*
+	!bin
 "3	LINE	0
-	# alias rm='rm -i'
+	!~/bin/*
 "4	LINE	0
-	Wed Jul 20 23:30:25 EDT 2016   Stufy for a while makes me good
+	# alias rm='rm -i'
 "5	LINE	0
-	alias python2=python
+	Wed Jul 20 23:30:25 EDT 2016   Stufy for a while makes me good
 "6	LINE	0
-	echo "Calendar"
+	alias python2=python
 "7	LINE	0
-	alias lla=jls -la
+	echo "Calendar"
 "8	LINE	0
-	python=python3
+	alias lla=jls -la
 "9	LINE	0
-	
+	python=python3
 "-	CHAR	0
-	rm -v
+	 
 
 # File marks:
-'0  20  28  ~/.bash_alias
-'1  4  59  ~/.bash_profile
-'2  2  5  ~/.gitignore
-'3  4  0  ~/.gitignore
-'4  5  3  ~/.gitignore
-'5  19  14  ~/.bash_alias
-'6  1  0  ~/Workspace/shell_workspace/.bash_profile
-'7  17  41  ~/.bash_alias
-'8  1  0  ~/.bash_alias
-'9  6  18  ~/.bash_profile
+'0  28  5  ~/.bash_alias
+'1  14  1  ~/bin/note
+'2  91  9  ~/.zshrc
+'3  2  20  ~/.inputrc
+'4  2  5  ~/Workspace/python_workspace/pyfund/helloworld.py
+'5  1  9  ~/Workspace/python_workspace/pyfund/helloworld.py
+'6  2  14  ~/Workspace/shell_workspace/exers_foleder/num.txt
+'7  24  28  ~/.bash_alias
+'8  4  59  ~/.bash_profile
+'9  2  5  ~/.gitignore
 
 # Jumplist (newest first):
--'  20  28  ~/.bash_alias
--'  1  0  ~/.bash_alias
+-'  28  5  ~/.bash_alias
+-'  4  0  ~/.bash_alias
+-'  5  0  ~/.bash_alias
+-'  14  1  ~/bin/note
+-'  1  0  ~/bin/note
+-'  91  9  ~/.zshrc
+-'  1  0  ~/.zshrc
+-'  2  20  ~/.inputrc
+-'  1  0  ~/.inputrc
+-'  2  5  ~/Workspace/python_workspace/pyfund/helloworld.py
+-'  1  0  ~/Workspace/python_workspace/pyfund/helloworld.py
+-'  2  14  ~/Workspace/shell_workspace/exers_foleder/num.txt
+-'  1  0  ~/Workspace/shell_workspace/exers_foleder/num.txt
+-'  24  28  ~/.bash_alias
 -'  4  59  ~/.bash_profile
 -'  1  0  ~/.bash_profile
 -'  2  5  ~/.gitignore
 -'  1  0  ~/.gitignore
 -'  4  0  ~/.gitignore
 -'  5  3  ~/.gitignore
--'  19  14  ~/.bash_alias
+-'  23  14  ~/.bash_alias
 -'  1  0  ~/Workspace/shell_workspace/.bash_profile
--'  17  41  ~/.bash_alias
+-'  21  41  ~/.bash_alias
 -'  6  18  ~/.bash_profile
 -'  1  0  ~/Dropbox/notes/studynotes.txt
 -'  9  18  ~/Workspace/python_workspace/pyfund/words.py
 -'  1  0  ~/Workspace/python_workspace/pyfund/words.py
--'  16  15  ~/.bash_alias
+-'  20  15  ~/.bash_alias
 -'  56  0  ~/.zshrc
 -'  2  0  ~/.zshrc
--'  1  0  ~/.zshrc
 -'  59  49  ~/.zshrc
 -'  10  0  ~/.zshrc
 -'  12  0  ~/.zshrc
 -'  11  17  ~/.zshrc
 -'  9  15  ~/.zshrc
 -'  16  72  ~/.zshrc
--'  88  19  ~/.zshrc
+-'  92  19  ~/.zshrc
 -'  9  0  ~/Workspace/shell_workspace/args.sh
 -'  1  0  ~/Workspace/shell_workspace/args.sh
 -'  7  0  ~/Workspace/shell_workspace/readinput.sh
@@ -110,7 +127,7 @@ $
 -'  1  0  ~/Workspace/shell_workspace/helloworld
 -'  2  16  ~/Workspace/shell_workspace/helloworld.sh
 -'  1  0  ~/Workspace/shell_workspace/helloworld.sh
--'  15  21  ~/.bash_alias
+-'  19  21  ~/.bash_alias
 -'  1  0  ~/.bash
 -'  1  19  ~/.config/fish/config.fish
 -'  19  78  ~/.bash_profile
@@ -159,34 +176,69 @@ $
 -'  1  0  ~/Workspace/wget_pages/index.html
 -'  1  0  ~/Workspace/wget_pages/index.html
 -'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Documents/.bash_pro
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Documents/.bash_pro
--'  1  0  ~/Workspace/wget_pages/index.html
 
 # History of marks within files (newest to oldest):
 
 > ~/.bash_alias
-	"	20	28
-	^	20	29
-	.	20	28
-	+	15	1
-	+	15	0
-	+	15	21
-	+	16	14
-	+	17	41
-	+	18	23
-	+	19	15
-	+	15	0
-	+	19	14
-	+	20	28
+	"	28	5
+	^	28	6
+	.	28	5
+	+	19	1
+	+	19	0
+	+	19	21
+	+	20	14
+	+	21	41
+	+	22	23
+	+	23	15
+	+	19	0
+	+	23	14
+	+	24	28
+	+	28	0
+	+	1	0
+	+	3	0
+	+	28	5
+
+> ~/bin/note
+	"	14	1
+
+> ~/.zshrc
+	"	91	9
+	^	91	10
+	.	91	9
+	+	92	19
+	+	9	0
+	+	8	1
+	+	9	15
+	+	10	0
+	+	9	1
+	+	10	17
+	+	11	0
+	+	10	0
+	+	11	0
+	+	10	0
+	+	55	51
+	+	50	0
+	+	55	85
+	+	91	9
+
+> ~/.inputrc
+	"	2	20
+	^	2	21
+	.	2	20
+	+	2	20
+
+> ~/Workspace/python_workspace/pyfund/helloworld.py
+	"	2	5
+	^	2	22
+	.	2	5
+	+	1	9
+	+	2	5
+	z	2	5
+
+> ~/Workspace/shell_workspace/exers_foleder/num.txt
+	"	2	14
+	.	1	0
+	+	1	0
 
 > ~/.bash_profile
 	"	4	59
@@ -241,25 +293,6 @@ $
 > ~/Workspace/python_workspace/pyfund/words.py
 	"	9	18
 	z	9	18
-
-> ~/.zshrc
-	"	56	0
-	^	55	86
-	.	55	85
-	+	88	19
-	+	9	0
-	+	8	1
-	+	9	15
-	+	10	0
-	+	9	1
-	+	10	17
-	+	11	0
-	+	10	0
-	+	11	0
-	+	10	0
-	+	55	51
-	+	50	0
-	+	55	85
 
 > ~/Workspace/shell_workspace/args.sh
 	"	9	0
