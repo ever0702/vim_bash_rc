@@ -75,7 +75,7 @@ function killname() {
 function addalias() {
 	if [[ $# -ne 2 ]]; then
 		echo "Two arguments required" >&2
-		exit 1;
+		return 1
 	fi
 
 	echo "alias $1='$2'" >> .bash_alias

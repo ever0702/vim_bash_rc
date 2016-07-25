@@ -66,23 +66,28 @@ $
 	`
 
 # File marks:
-'0  28  0  ~/.bash_alias
-'1  29  23  ~/.bash_alias
-'2  14  8  ~/bin/create_bin_script
-'3  78  0  ~/.bash_profile
-'4  1  0  ~/.zshrc
-'5  14  1  ~/bin/note
-'6  91  9  ~/.zshrc
-'7  2  20  ~/.inputrc
-'8  2  5  ~/Workspace/python_workspace/pyfund/helloworld.py
-'9  1  9  ~/Workspace/python_workspace/pyfund/helloworld.py
+'0  38  0  ~/Workspace/python_workspace/pyfund/words.py
+'1  1  0  ~/Workspace/python_workspace/pyfund/helloworld.py
+'2  17  24  ~/bin/create_bin_script
+'3  28  0  ~/.bash_alias
+'4  29  23  ~/.bash_alias
+'5  14  8  ~/bin/create_bin_script
+'6  78  0  ~/.bash_profile
+'7  1  0  ~/.zshrc
+'8  14  1  ~/bin/note
+'9  91  9  ~/.zshrc
 
 # Jumplist (newest first):
+-'  38  0  ~/Workspace/python_workspace/pyfund/words.py
+-'  17  1  ~/Workspace/python_workspace/pyfund/words.py
+-'  1  0  ~/Workspace/python_workspace/pyfund/words.py
+-'  1  0  ~/Workspace/python_workspace/pyfund/helloworld.py
+-'  17  24  ~/bin/create_bin_script
+-'  1  0  ~/bin/create_bin_script
 -'  28  0  ~/.bash_alias
 -'  1  0  ~/.bash_alias
 -'  29  23  ~/.bash_alias
 -'  14  8  ~/bin/create_bin_script
--'  1  0  ~/bin/create_bin_script
 -'  78  0  ~/.bash_profile
 -'  46  15  ~/.bash_profile
 -'  1  0  ~/.bash_profile
@@ -95,7 +100,6 @@ $
 -'  2  20  ~/.inputrc
 -'  1  0  ~/.inputrc
 -'  2  5  ~/Workspace/python_workspace/pyfund/helloworld.py
--'  1  0  ~/Workspace/python_workspace/pyfund/helloworld.py
 -'  2  14  ~/Workspace/shell_workspace/exers_foleder/num.txt
 -'  1  0  ~/Workspace/shell_workspace/exers_foleder/num.txt
 -'  24  28  ~/.bash_alias
@@ -110,7 +114,6 @@ $
 -'  6  18  ~/.bash_profile
 -'  1  0  ~/Dropbox/notes/studynotes.txt
 -'  9  18  ~/Workspace/python_workspace/pyfund/words.py
--'  1  0  ~/Workspace/python_workspace/pyfund/words.py
 -'  20  15  ~/.bash_alias
 -'  56  0  ~/.zshrc
 -'  2  0  ~/.zshrc
@@ -172,11 +175,25 @@ $
 -'  7  15  ~/Workspace/js_workspace/angular_yo_test/Gruntfile.js
 -'  1  0  ~/Workspace/js_workspace/angular_yo_test/Gruntfile.js
 -'  9  17  ~/.bash_profile
--'  2  12  ~/.bash_profile
--'  1  0  ~/Documents/.bash_pro
--'  1  0  ~/Workspace/wget_pages/index.html
 
 # History of marks within files (newest to oldest):
+
+> ~/Workspace/python_workspace/pyfund/words.py
+	"	38	0
+	.	4	0
+	+	4	0
+	z	38	0
+
+> ~/Workspace/python_workspace/pyfund/helloworld.py
+	"	1	0
+	^	2	22
+	.	2	5
+	+	1	9
+	+	2	5
+	z	1	0
+
+> ~/bin/create_bin_script
+	"	17	24
 
 > ~/.bash_alias
 	"	28	0
@@ -196,9 +213,6 @@ $
 	+	3	0
 	+	28	5
 	+	29	0
-
-> ~/bin/create_bin_script
-	"	14	8
 
 > ~/.bash_profile
 	"	78	0
@@ -266,14 +280,6 @@ $
 	.	2	20
 	+	2	20
 
-> ~/Workspace/python_workspace/pyfund/helloworld.py
-	"	2	5
-	^	2	22
-	.	2	5
-	+	1	9
-	+	2	5
-	z	2	5
-
 > ~/Workspace/shell_workspace/exers_foleder/num.txt
 	"	2	14
 	.	1	0
@@ -292,10 +298,6 @@ $
 	"	1	0
 	.	1	0
 	+	1	0
-
-> ~/Workspace/python_workspace/pyfund/words.py
-	"	9	18
-	z	9	18
 
 > ~/Workspace/shell_workspace/args.sh
 	"	9	0
