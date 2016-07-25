@@ -18,10 +18,10 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-:s/12/489/g
 :q
-:q!
 :w
+:s/12/489/g
+:q!
 :'<,'>q
 :!q
 :'<,'>
@@ -44,47 +44,54 @@ $
 "0	LINE	0
 	ZSH_THEME="philips"
 ""1	LINE	0
+	alias notes='note study'
+"2	LINE	0
 	# Project specific to Fantp
 	alias cdfan='cd ~/Workspace/ps_workspace/fantp'
-"2	LINE	0
-	!bin
 "3	LINE	0
-	!~/bin/*
+	!bin
 "4	LINE	0
-	# alias rm='rm -i'
+	!~/bin/*
 "5	LINE	0
-	Wed Jul 20 23:30:25 EDT 2016   Stufy for a while makes me good
+	# alias rm='rm -i'
 "6	LINE	0
-	alias python2=python
+	Wed Jul 20 23:30:25 EDT 2016   Stufy for a while makes me good
 "7	LINE	0
-	echo "Calendar"
+	alias python2=python
 "8	LINE	0
-	alias lla=jls -la
+	echo "Calendar"
 "9	LINE	0
-	python=python3
+	alias lla=jls -la
 "-	CHAR	0
-	 
+	`
 
 # File marks:
-'0  28  5  ~/.bash_alias
-'1  14  1  ~/bin/note
-'2  91  9  ~/.zshrc
-'3  2  20  ~/.inputrc
-'4  2  5  ~/Workspace/python_workspace/pyfund/helloworld.py
-'5  1  9  ~/Workspace/python_workspace/pyfund/helloworld.py
-'6  2  14  ~/Workspace/shell_workspace/exers_foleder/num.txt
-'7  24  28  ~/.bash_alias
-'8  4  59  ~/.bash_profile
-'9  2  5  ~/.gitignore
+'0  28  0  ~/.bash_alias
+'1  29  23  ~/.bash_alias
+'2  14  8  ~/bin/create_bin_script
+'3  78  0  ~/.bash_profile
+'4  1  0  ~/.zshrc
+'5  14  1  ~/bin/note
+'6  91  9  ~/.zshrc
+'7  2  20  ~/.inputrc
+'8  2  5  ~/Workspace/python_workspace/pyfund/helloworld.py
+'9  1  9  ~/Workspace/python_workspace/pyfund/helloworld.py
 
 # Jumplist (newest first):
--'  28  5  ~/.bash_alias
+-'  28  0  ~/.bash_alias
+-'  1  0  ~/.bash_alias
+-'  29  23  ~/.bash_alias
+-'  14  8  ~/bin/create_bin_script
+-'  1  0  ~/bin/create_bin_script
+-'  78  0  ~/.bash_profile
+-'  46  15  ~/.bash_profile
+-'  1  0  ~/.bash_profile
+-'  1  0  ~/.zshrc
 -'  4  0  ~/.bash_alias
 -'  5  0  ~/.bash_alias
 -'  14  1  ~/bin/note
 -'  1  0  ~/bin/note
 -'  91  9  ~/.zshrc
--'  1  0  ~/.zshrc
 -'  2  20  ~/.inputrc
 -'  1  0  ~/.inputrc
 -'  2  5  ~/Workspace/python_workspace/pyfund/helloworld.py
@@ -93,7 +100,6 @@ $
 -'  1  0  ~/Workspace/shell_workspace/exers_foleder/num.txt
 -'  24  28  ~/.bash_alias
 -'  4  59  ~/.bash_profile
--'  1  0  ~/.bash_profile
 -'  2  5  ~/.gitignore
 -'  1  0  ~/.gitignore
 -'  4  0  ~/.gitignore
@@ -169,20 +175,12 @@ $
 -'  2  12  ~/.bash_profile
 -'  1  0  ~/Documents/.bash_pro
 -'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
--'  1  0  ~/Workspace/wget_pages/index.html
 
 # History of marks within files (newest to oldest):
 
 > ~/.bash_alias
-	"	28	5
-	^	28	6
-	.	28	5
+	"	28	0
+	.	29	0
 	+	19	1
 	+	19	0
 	+	19	21
@@ -197,53 +195,15 @@ $
 	+	1	0
 	+	3	0
 	+	28	5
+	+	29	0
 
-> ~/bin/note
-	"	14	1
-
-> ~/.zshrc
-	"	91	9
-	^	91	10
-	.	91	9
-	+	92	19
-	+	9	0
-	+	8	1
-	+	9	15
-	+	10	0
-	+	9	1
-	+	10	17
-	+	11	0
-	+	10	0
-	+	11	0
-	+	10	0
-	+	55	51
-	+	50	0
-	+	55	85
-	+	91	9
-
-> ~/.inputrc
-	"	2	20
-	^	2	21
-	.	2	20
-	+	2	20
-
-> ~/Workspace/python_workspace/pyfund/helloworld.py
-	"	2	5
-	^	2	22
-	.	2	5
-	+	1	9
-	+	2	5
-	z	2	5
-
-> ~/Workspace/shell_workspace/exers_foleder/num.txt
-	"	2	14
-	.	1	0
-	+	1	0
+> ~/bin/create_bin_script
+	"	14	8
 
 > ~/.bash_profile
-	"	4	59
-	^	4	60
-	.	4	59
+	"	78	0
+	^	46	16
+	.	46	0
 	+	1	13
 	+	2	12
 	+	3	0
@@ -275,6 +235,49 @@ $
 	+	14	0
 	+	19	0
 	+	4	59
+	+	46	0
+
+> ~/.zshrc
+	"	1	0
+	^	91	10
+	.	91	9
+	+	92	19
+	+	9	0
+	+	8	1
+	+	9	15
+	+	10	0
+	+	9	1
+	+	10	17
+	+	11	0
+	+	10	0
+	+	11	0
+	+	10	0
+	+	55	51
+	+	50	0
+	+	55	85
+	+	91	9
+
+> ~/bin/note
+	"	14	1
+
+> ~/.inputrc
+	"	2	20
+	^	2	21
+	.	2	20
+	+	2	20
+
+> ~/Workspace/python_workspace/pyfund/helloworld.py
+	"	2	5
+	^	2	22
+	.	2	5
+	+	1	9
+	+	2	5
+	z	2	5
+
+> ~/Workspace/shell_workspace/exers_foleder/num.txt
+	"	2	14
+	.	1	0
+	+	1	0
 
 > ~/.gitignore
 	"	2	5

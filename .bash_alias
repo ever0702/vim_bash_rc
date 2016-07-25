@@ -26,3 +26,5 @@ alias rm='trash'
 alias chrome='open -a Google\ Chrome'
 
 alias cl='cd -'
+alias notes='note study'
+alias notew='note work'
