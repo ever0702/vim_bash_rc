@@ -21,10 +21,25 @@ alias python='python3'
 alias cdsh='cd ~/Workspace/shell_workspace'
 alias cdjs='cd ~/Workspace/js_workspace'
 alias cdps='cd ~/Workspace/ps_workspace'
-alias touch='touch_open'
+# alias touch='touch_open'
 alias rm='trash'
 alias chrome='open -a Google\ Chrome'
 
-alias cl='cd -'
+# Stuff I never really use but cannot delete either because of http://xkcd.com/530/
+alias stfu="osascript -e 'set volume output muted true'"
+alias pumpitup="osascript -e 'set volume 7'"
+
+# Kill all the tabs in Chrome to free up memory
+# [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
+alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec $SHELL -l"
+
+alias -- -="cd -"
 alias notes='note study'
 alias notew='note work'
+alias acy3='source ~/.virtualenvs/y3/bin/activate'

@@ -1,18 +1,27 @@
 # ALL alias config comes from .bash_alias
 source ~/.bash_alias
 
+# export WORKON_HOME=$HOME/.virtualenvs
+# export PROJECT_HOME="$HOME/python_studio"
+# export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+# export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+# export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
+# source /usr/local/bin/virtualenvwrapper.sh
+
+
 
 # Some variables
-HISTSIZE=450
-HISTFILESIZE=450
+HISTSIZE=5000
+HISTFILESIZE=5000
 
-export PATH="$PATH":/Users/yong/.node/bin:~/bin:~/.app_links
+export PATH="$PATH":/Users/yong/.node/bin:~/bin:~/bin/python_bin:~/python_studio/bin
+export PYTHONPATH="$PYTHONPATH":~/python_studio #:/usr/local/lib/python3.5/site-packages
 export EDITOR=subl
 eval $(thefuck --alias fuck)
 
 function code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $*; }
 
-function lcd() {
+functio nlcd() {
 	cd "$*"; ls ; 
 }
 
