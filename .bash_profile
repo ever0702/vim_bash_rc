@@ -14,7 +14,7 @@ source ~/.bash_alias
 HISTSIZE=5000
 HISTFILESIZE=5000
 
-export PATH="$PATH":/Users/yong/.node/bin:~/bin:~/bin/python_bin:~/python_studio/bin
+export PATH="$PATH":/Users/yong/.node/bin:/usr/local/mysql/bin:~/bin:~/bin/python_bin:~/python_studio/bin
 export PYTHONPATH="$PYTHONPATH":~/python_studio #:/usr/local/lib/python3.5/site-packages
 export EDITOR=subl
 eval $(thefuck --alias fuck)
@@ -87,7 +87,7 @@ function addalias() {
 		return 1
 	fi
 
-	echo "alias $1='$2'" >> .bash_alias
+	echo "alias $1='$2'" >> ~/.bash_alias
 
 }
 

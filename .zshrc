@@ -98,3 +98,5 @@ bindkey '^r' history-incremental-search-backward
 source ~/.bash_alias
 source ~/.bash_profile
 source ~/.bashrc
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
